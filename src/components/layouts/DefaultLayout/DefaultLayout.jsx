@@ -1,11 +1,15 @@
 import { Box } from '@mui/material';
+import SideNavbar from '../SideNavbar/SideNavbar';
+import styles from './styles';
 
 const DefaultLayout = ({ children }) => {
   return (
-    <>
-      <Box></Box>
-      <Box component="main">{children}</Box>
-    </>
+    <Box sx={styles.defaultLayout}>
+      <SideNavbar />
+      <Box sx={styles.mainLayout} component="main">
+        {children}
+      </Box>
+    </Box>
   );
 };
 

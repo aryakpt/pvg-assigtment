@@ -6,8 +6,10 @@ const colorPalette = {
   'red-1': '#E94948',
   'green-1': '#36D189',
   'orange-1': '#FFDC7D',
-  'gray-1': '#7A7A7A',
+  'dark-second': '#7A7A7A',
   'gray-2': '#BDBDBD',
+  'primary-klikoo-100': '#545DFF',
+  'secondary-klikoo-20': '#FCFCFF',
 };
 
 export default colorPalette;
