@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link, Typography, Box, ListItem } from '@mui/material';
+import { Link, Box } from '@mui/material';
 import styles from './styles';
 import colorPalette from '../../../styles/colorPalette';
 import { ArrowIcon } from '../../../assets';

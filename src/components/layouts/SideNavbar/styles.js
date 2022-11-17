@@ -13,7 +13,7 @@ const styles = {
     justifyContent: 'center',
     alignItems: 'center',
     width: '100%',
-    height: '137px',
+    minHeight: '129px',
   },
   sideNavbarNav: {
     // backgroundColor: 'red',

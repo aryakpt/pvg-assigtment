@@ -4,4 +4,13 @@ import TransactionIcon from './TransactionIcon';
 import ProductIcon from './ProductIcon';
 import ChannelIcon from './ChannelIcon';
 import ArrowIcon from './ArrowIcon';
-export { DashboardIcon, BalanceIcon, TransactionIcon, ProductIcon, ChannelIcon, ArrowIcon };
+import MoreVerticalIcon from './MoreVerticalIcon';
+export {
+  DashboardIcon,
+  BalanceIcon,
+  TransactionIcon,
+  ProductIcon,
+  ChannelIcon,
+  ArrowIcon,
+  MoreVerticalIcon,
+};
