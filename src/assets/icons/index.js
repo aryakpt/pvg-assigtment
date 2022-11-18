@@ -5,6 +5,9 @@ import ProductIcon from './ProductIcon';
 import ChannelIcon from './ChannelIcon';
 import ArrowIcon from './ArrowIcon';
 import MoreVerticalIcon from './MoreVerticalIcon';
+import DecreaseIcon from './DecreaseIcon';
+import IncreaseIcon from './IncreaseIcon';
+import SameIcon from './SameIcon';
 export {
   DashboardIcon,
   BalanceIcon,
@@ -13,4 +16,7 @@ export {
   ChannelIcon,
   ArrowIcon,
   MoreVerticalIcon,
+  DecreaseIcon,
+  IncreaseIcon,
+  SameIcon,
 };

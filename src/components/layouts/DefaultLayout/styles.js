@@ -4,6 +4,8 @@ const styles = {
   },
   mainLayout: {
     padding: '30px 60px',
+    width: '1232px',
+    maxWidth: '100%',
   },
 };
 

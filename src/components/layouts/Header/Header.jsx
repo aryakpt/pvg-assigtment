@@ -7,7 +7,7 @@ import { TotalBalanceCard } from '../../ui';
 const Header = () => {
   const [headerTitle, setHeaderTitle] = useState('');
   const [todayDate, setTodayDate] = useState('');
-  const [isProfileShowed, setIsProfileShowed] = useState(false);
+  const [isProfileShowed, setIsProfileShowed] = useState(true);
 
   useEffect(() => {
     const pathname = window.location.pathname.split('/');

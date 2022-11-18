@@ -6,6 +6,9 @@ import {
   ChannelIcon,
   ArrowIcon,
   MoreVerticalIcon,
+  DecreaseIcon,
+  IncreaseIcon,
+  SameIcon,
 } from './icons';
 export {
   DashboardIcon,
@@ -15,4 +18,7 @@ export {
   ChannelIcon,
   ArrowIcon,
   MoreVerticalIcon,
+  DecreaseIcon,
+  IncreaseIcon,
+  SameIcon,
 };

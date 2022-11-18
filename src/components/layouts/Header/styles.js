@@ -7,6 +7,8 @@ const styles = {
   },
   headerLeft: {
     minHeight: '129px',
+    width: '1232px',
+    maxWidth: '100%',
     paddingInline: '60px',
     display: 'flex',
     justifyContent: 'center',
