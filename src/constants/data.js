@@ -1,4 +1,15 @@
-import { Avatar1, Avatar2, Avatar3, Avatar4, Avatar5 } from '../assets/images';
+import {
+  Avatar1,
+  Avatar2,
+  Avatar3,
+  Avatar4,
+  Avatar5,
+  Product1,
+  Product2,
+  Product3,
+  Product4,
+  Product5,
+} from '../assets/images';
 
 export const dataSummaryCard = [
   {
@@ -53,5 +64,38 @@ export const topAgents = [
     profit: 2350000,
     sales: 2100000,
     transaction: 20,
+  },
+];
+
+export const topProducts = [
+  {
+    name: 'Maxim',
+    image: Product1,
+    price: 150000,
+    transaction: 120,
+  },
+  {
+    name: 'Telkomsel',
+    image: Product2,
+    price: 25000,
+    transaction: 98,
+  },
+  {
+    name: 'Three',
+    image: Product3,
+    price: 50000,
+    transaction: 74,
+  },
+  {
+    name: 'OVO',
+    image: Product4,
+    price: 100000,
+    transaction: 68,
+  },
+  {
+    name: 'PLN Postpaid',
+    image: Product5,
+    price: 0,
+    transaction: 50,
   },
 ];

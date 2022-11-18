@@ -1,7 +1,12 @@
 import { DefaultLayout } from '../../components/layouts';
-import { DashboardSummaryCard, DashboardTopAgent } from '../../components/dashboard';
+import {
+  DashboardSummaryCard,
+  DashboardTopAgent,
+  DashboardTopProduct,
+} from '../../components/dashboard';
 import { dataSummaryCard } from '../../constants/data';
 import { Grid } from '@mui/material';
+
 const Dashboard = () => {
   return (
     <DefaultLayout>
@@ -25,7 +30,7 @@ const Dashboard = () => {
               Sales Chart
             </Grid>
             <Grid item xs={12}>
-              Top 5 Product
+              <DashboardTopProduct />
             </Grid>
           </Grid>
         </Grid>
