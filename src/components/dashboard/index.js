@@ -1,4 +1,5 @@
 import DashboardSummaryCard from './DashboardSummaryCard/DashboardSummaryCard';
 import DashboardTopAgent from './DashboardTopAgent/DashboardTopAgent';
 import DashboardTopProduct from './DashboardTopProduct/DashboardTopProduct';
-export { DashboardSummaryCard, DashboardTopAgent, DashboardTopProduct };
+import DashboardSales from './DashboardSales/DashboardSales';
+export { DashboardSummaryCard, DashboardTopAgent, DashboardTopProduct, DashboardSales };

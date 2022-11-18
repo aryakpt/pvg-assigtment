@@ -7,12 +7,12 @@ const DashboardTopAgentCard = ({ agent }) => {
       <Box>
         <Typography sx={styles.dashboardTopAgentCardTitle}>{agent.name}</Typography>
         <Grid container spacing={2}>
-          <Grid item sx={6}>
+          <Grid item>
             <Typography sx={styles.dashboardTopAgentCardName}>Profit</Typography>
             <Typography sx={styles.dashboardTopAgentCardName}>Sales</Typography>
             <Typography sx={styles.dashboardTopAgentCardName}>Transaction</Typography>
           </Grid>
-          <Grid item sx={6}>
+          <Grid item>
             <Typography sx={styles.dashboardTopAgentCardValue}>
               Rp {agent.profit.toLocaleString('id')}
             </Typography>

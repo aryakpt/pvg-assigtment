@@ -17,8 +17,7 @@ const styles = {
   headerRight: {
     backgroundColor: 'custom.secondary-klikoo-20',
     minHeight: '129px',
-    width: '408px',
-    maxWidth: '100%',
+    minWidth: '408px',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',

@@ -1,5 +1,12 @@
 import customThemeMUI from '../styles/customThemeMUI';
-import { DashboardIcon, BalanceIcon, TransactionIcon, ProductIcon, ChannelIcon } from '../assets';
+import {
+  LogoutIcon,
+  DashboardIcon,
+  BalanceIcon,
+  TransactionIcon,
+  ProductIcon,
+  ChannelIcon,
+} from '../assets';
 const { palette } = customThemeMUI;
 
 const NAV_ITEM = [
@@ -55,6 +62,14 @@ const NAV_ITEM = [
         path: '/channel/transaction',
       },
     ],
+  },
+  {
+    title: 'Logout',
+    path: '/',
+    icon: (color = palette.custom['dark-second']) => {
+      return <LogoutIcon variantColor={color} />;
+    },
+    child: [],
   },
 ];
 

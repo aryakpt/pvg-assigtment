@@ -19,7 +19,6 @@ const DashboardSummaryCard = ({ title, amount, weeklyAverageAmount }) => {
 
   useEffect(() => {
     const decimal = (amount - weeklyAverageAmount) / weeklyAverageAmount;
-    console.log(decimal);
     setPercentage(Math.abs(decimal * 100).toFixed(1));
     getVariant(decimal);
   }, [amount, weeklyAverageAmount]);

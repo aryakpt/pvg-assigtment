@@ -9,6 +9,7 @@ import {
   DecreaseIcon,
   IncreaseIcon,
   SameIcon,
+  LogoutIcon,
 } from './icons';
 export {
   DashboardIcon,
@@ -21,4 +22,5 @@ export {
   DecreaseIcon,
   IncreaseIcon,
   SameIcon,
+  LogoutIcon,
 };

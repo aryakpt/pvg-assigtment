@@ -1,5 +1,6 @@
 import { DefaultLayout } from '../../components/layouts';
 import {
+  DashboardSales,
   DashboardSummaryCard,
   DashboardTopAgent,
   DashboardTopProduct,
@@ -27,7 +28,7 @@ const Dashboard = () => {
         <Grid item xs={8}>
           <Grid container spacing={4}>
             <Grid item xs={12}>
-              Sales Chart
+              <DashboardSales />
             </Grid>
             <Grid item xs={12}>
               <DashboardTopProduct />

@@ -8,6 +8,7 @@ import MoreVerticalIcon from './MoreVerticalIcon';
 import DecreaseIcon from './DecreaseIcon';
 import IncreaseIcon from './IncreaseIcon';
 import SameIcon from './SameIcon';
+import LogoutIcon from './LogoutIcon';
 export {
   DashboardIcon,
   BalanceIcon,
@@ -19,4 +20,5 @@ export {
   DecreaseIcon,
   IncreaseIcon,
   SameIcon,
+  LogoutIcon,
 };
